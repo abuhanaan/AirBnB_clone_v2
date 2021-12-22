@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 -- Creates the database hbnb_test_db with specified paramenters
 -- Create database
 CREATE DATABASE IF NOT EXISTS hbnb_test_db;
@@ -12,12 +11,3 @@ GRANT ALL PRIVILEGES ON hbnb_test_db.* TO 'hbnb_test'@'localhost';
 GRANT SELECT ON performance_schema.* TO 'hbnb_test'@'localhost';
 -- Flush privileges
 FLUSH PRIVILEGES;
-=======
--- Script to create a MySQL server with the database hbnb_test_db.
-CREATE DATABASE IF NOT EXISTS hbnb_test_db;
-CREATE USER IF NOT EXISTS 'hbnb_test'@'localhost';
-SET PASSWORD FOR 'hbnb_test'@'localhost' = 'hbnb_test_pwd';
-GRANT USAGE ON *.* TO 'hbnb_test'@'localhost';
-GRANT SELECT ON `performance_schema`.* TO 'hbnb_test'@'localhost';
-GRANT ALL PRIVILEGES ON `hbnb_test_db`.* TO 'hbnb_test'@'localhost';
->>>>>>> 08d37e6326007a64b50ce934687b5ed366f577ba
