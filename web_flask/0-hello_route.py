@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Starts Flask web app
-Listening on 0.0.0.0:5000
-Route '/' displays "Hello HBNB!"
+"""Starts Flask web app,
+   listening on 0.0.0.0:5000, 
+   route '/' displays "Hello HBNB!"
 """
 from flask import Flask
 
